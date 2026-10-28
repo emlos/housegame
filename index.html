@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="clock.css" />
+    <script type="module" src="app.js"></script>
+    <title>Housegame</title>
+  </head>
+  <body>
+    <div id="screen-start" class="screen">
+      <button id="start-game" class="button">start game!</button>
+
+      <div id="clock" class="clock" style="display: none">
+        <span class="number" style="top: 12%; left: 50%">12</span>
+        <span class="number" style="top: 50%; left: 88%">3</span>
+        <span class="number" style="top: 88%; left: 50%">6</span>
+        <span class="number" style="top: 50%; left: 12%">9</span>
+
+        <div id="hour" class="hand"></div>
+        <div id="minute" class="hand"></div>
+        <div class="center"></div>
+      </div>
+    </div>
+  </body>
+</html>
